@@ -9,8 +9,14 @@ def dict_sort(dic, by="value", topk=None, reverse=True):
     elif by == "key":
         return dict(OrderedDict(dic.items())[:topk])
 
-def dict_counter(dic, key, value=1):
-    if key in dic.keys():
-        dic[key] += value
-    else:
-        dic[key] = value
+def dict_counter(dic, key, value=1, append_value="int"):
+    if append_value == "int":
+        if key in dic.keys():
+            dic[key] += value
+        else:
+            dic[key] = value
+    elif append_value == "list":
+        if key in dic.keys():
+            dic[key].append(value)
+        else:
+            dic[key] = value

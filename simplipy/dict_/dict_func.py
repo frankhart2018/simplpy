@@ -19,4 +19,4 @@ def dict_counter(dic, key, value=1, append_value="int"):
         if key in dic.keys():
             dic[key].append(value)
         else:
-            dic[key] = value
+            dic[key] = [value]

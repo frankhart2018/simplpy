@@ -27,19 +27,19 @@ def get_version(rel_path):
 
 # This call to setup() does all the work
 setup(
-    name="simplipy",
+    name="simplpy",
     version=get_version("simplipy/__init__.py"),
     description=(
-        "Simple helpers to make your lives easier"
+        "Simple python helpers to make your lives easier"
     ),
     long_description=README,
     long_description_content_type="text/markdown",
-    url="https://github.com/frankhart2018/simplipy",
+    url="https://github.com/frankhart2018/simplpy",
     author="Siddhartha Dhar Choudhury",
     author_email="sdharchou@gmail.com",
-    license="GNU General Public License v3",
+    license="MIT",
     classifiers=[
-        "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+        "License :: OSI Approved :: MIT License",
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.9",
         "Programming Language :: Python :: 3.8",

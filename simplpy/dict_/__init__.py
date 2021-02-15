@@ -1,1 +1,1 @@
-from simplipy.dict_.dict_func import *
+from simplpy.dict_.dict_func import *

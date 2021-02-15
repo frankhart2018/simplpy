@@ -1,1 +1,1 @@
-from simplipy.sklearn_.sklearn_func import *
+from simplpy.sklearn_.sklearn_func import *

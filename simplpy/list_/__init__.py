@@ -1,1 +1,1 @@
-from simplipy.list_.list_func import *
+from simplpy.list_.list_func import *

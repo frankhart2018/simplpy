@@ -2,6 +2,21 @@ from collections import OrderedDict
 
 
 def dict_sort(dic, by="value", topk=None, reverse=True):
+    """
+    Sort dictionary by key or value
+
+    Params
+    ======
+    dic     (dict)
+        : Input dictionary
+    by      (str) 
+        : String indicating the sorting procedure (value = sort by value, key = sort by key)
+    topk    (int)(Optional)
+        : Return top k results after sorting
+    reverse (bool)(Optional)
+        : Whether to return sorted array in ascending (reverse=False) or descending (reverse=True) order
+    """
+
     if topk == None:
         topk = len(dic)
 

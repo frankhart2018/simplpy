@@ -1,1 +1,1 @@
-from simplipy.pd_.pd_func import *
+from simplpy.pd_.pd_func import *

@@ -29,9 +29,7 @@ def get_version(rel_path):
 setup(
     name="simplpy",
     version=get_version("simplipy/__init__.py"),
-    description=(
-        "Simple python helpers to make your lives easier"
-    ),
+    description="Simple python helpers to make your lives easier",
     long_description=README,
     long_description_content_type="text/markdown",
     url="https://github.com/frankhart2018/simplpy",

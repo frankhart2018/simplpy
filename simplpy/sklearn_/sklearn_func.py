@@ -1,5 +1,6 @@
 from ..dict_ import dict_sort
 
+
 def sort_cr_by_support(cr, reverse=True):
     cr = cr.split("\n")
     cr_begin = cr[:2]

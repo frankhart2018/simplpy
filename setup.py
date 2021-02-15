@@ -28,7 +28,7 @@ def get_version(rel_path):
 # This call to setup() does all the work
 setup(
     name="simplpy",
-    version=get_version("simplipy/__init__.py"),
+    version=get_version("simplpy/__init__.py"),
     description="Simple python helpers to make your lives easier",
     long_description=README,
     long_description_content_type="text/markdown",

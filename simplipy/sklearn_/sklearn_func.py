@@ -1,6 +1,6 @@
 from ..dict_ import dict_sort
 
-def sort_cr_by_support(cr):
+def sort_cr_by_support(cr, reverse=True):
     cr = cr.split("\n")
     cr_begin = cr[:2]
     cr_end = cr[-6:]
@@ -15,7 +15,7 @@ def sort_cr_by_support(cr):
         else:
             count_cr_values[count] = [cr_value]
 
-    count_cr_values = dict_sort(count_cr_values, by="key")
+    count_cr_values = dict_sort(count_cr_values, by="key", reverse=reverse)
 
     sorted_cr = "\n".join(cr_begin) + "\n"
 

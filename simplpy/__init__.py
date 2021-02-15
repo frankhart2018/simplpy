@@ -3,4 +3,4 @@ import simplpy.dict_
 import simplpy.list_
 import simplpy.sklearn_
 
-__version__ = "0.1-alpha-0"
+__version__ = "0.1-alpha-1"

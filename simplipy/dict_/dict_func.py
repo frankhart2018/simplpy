@@ -7,7 +7,7 @@ def dict_sort(dic, by="value", topk=None, reverse=True):
     if by == "value":
         return {k: v for k, v in sorted(dic.items(), key=lambda item: item[1], reverse=reverse)[:topk]}
     elif by == "key":
-        return dict(OrderedDict(dic.items())[:topk])
+        return dict(OrderedDict(sorted(dic.items())[:topk]))
 
 def dict_counter(dic, key, value=1, append_value="int"):
     if append_value == "int":
